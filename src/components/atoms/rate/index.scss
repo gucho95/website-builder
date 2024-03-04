@@ -1,0 +1,13 @@
+.rc-rate {
+    $root: &;
+    &-star-first {
+        @apply text-h3/h4;
+    }
+    &-star-second {
+        @apply text-h3/h4;
+    }
+    #{$root}-star-half #{$root}-star-first,
+    #{$root}-star-full #{$root}-star-second {
+        @apply text-yellow;
+    }
+}

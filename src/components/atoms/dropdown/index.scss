@@ -1,0 +1,13 @@
+.rc-dropdown {
+    &-menu {
+        @apply shadow-5 border-none overflow-hidden rounded-5px;
+    }
+
+    &-menu-item {
+        @apply cursor-pointer select-none rounded-0px border-none p-0 m-0 overflow-hidden;
+        &:hover,
+        &-active {
+            @apply bg-blue-light text-white  #{!important};
+        }
+    }
+}

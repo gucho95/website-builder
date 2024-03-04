@@ -1,0 +1,11 @@
+.rc-table {
+    table {
+        @apply w-full;
+    }
+    &-thead {
+        @apply bg-blue-light text-white;
+    }
+    &-cell {
+        @apply w-full border-1px border-grey-dark p-2 text-center;
+    }
+}

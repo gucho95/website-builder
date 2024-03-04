@@ -1,0 +1,9 @@
+// DECLARE MIXINS
+@mixin perfect-center-mixin {
+    @apply flex justify-center items-center;
+}
+
+// MIXIN CLASSES
+.perfect-center {
+    @include perfect-center-mixin();
+}

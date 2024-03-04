@@ -1,0 +1,12 @@
+.tox {
+    &-tinymce {
+        @apply border-1px h-80  border-transparent overflow-hidden #{!important};
+    }
+
+    &-editor-container {
+        @apply overflow-hidden #{!important};
+    }
+    &-statusbar {
+        @apply hidden #{!important};
+    }
+}

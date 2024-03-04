@@ -1,0 +1,17 @@
+* {
+    @apply outline-none font-sans;
+}
+html,
+body {
+    min-width: 1024px;
+    margin: auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./mixins.scss";
+
+.brd {
+    border: 1px solid red;
+}

@@ -1,0 +1,18 @@
+@import url("~slick-carousel/slick/slick.css");
+@import url("~slick-carousel/slick/slick-theme.css");
+
+.thumbnails-carousel {
+    .slick-prev,
+    .slick-next {
+        @apply z-40 top-68px text-blue-light;
+        &::before {
+            @apply text-blue-hover;
+        }
+    }
+    .slick-prev {
+        @apply left-0;
+    }
+    .slick-next {
+        @apply right-0;
+    }
+}

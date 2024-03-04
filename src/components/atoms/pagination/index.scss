@@ -1,0 +1,17 @@
+.pagination-root {
+    @apply flex justify-center;
+    .rc-pagination {
+        @apply flex space-x-2;
+        &-prev,
+        &-next {
+            @apply flex justify-center items-center cursor-pointer;
+        }
+
+        &-item {
+            @apply rounded-full w-8 h-8 flex justify-center items-center text-blue-light cursor-pointer border-blue-light border-1px;
+        }
+        &-item-active {
+            @apply bg-blue-hover text-white border-transparent;
+        }
+    }
+}

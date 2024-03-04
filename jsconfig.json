@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "baseUrl": "./src",
+    "jsx": "react",
+    "paths": {
+      "@atoms": ["./components/atoms/index.js"],
+      "@molecules": ["./components/molecules/index.js"],
+      "@organisms": ["./components/organisms/index.js"],
+      "@templates": ["./components/templates/index.js"],
+      "@widgets": ["./widgets/index.js"],
+      "@pages": ["./components/pages/index.js"],
+      "@atoms/*": ["./components/atoms/*"],
+      "@molecules/*": ["./components/molecules/*"],
+      "@organisms/*": ["./components/organisms/*"],
+      "@templates/*": ["./components/templates/*"],
+      "@pages/*": ["./components/pages/*"],
+      "@widgets/*": ["./widgets/*"],
+      "@icons/*": ["./components/atoms/icons/index.js"],
+      "@hooks": ["./hooks/index.js"],
+      "@hocs": ["./hocs/index.js"],
+      "@utils": ["./utils/index.js"],
+      "@styles/*": ["./styles/*"],
+      "@assets/*": ["./assets/*"],
+      "@constants/*": ["./constants/*"],
+      "@actions/*": ["./store/actions/*"],
+      "@selectors/*": ["./store/selectors/*"],
+      "@sagas/*": ["./store/sagas/*"],
+      "@services/*": ["./store/services/*"],
+      "@store/*": ["./store/*"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "build"]
+}
